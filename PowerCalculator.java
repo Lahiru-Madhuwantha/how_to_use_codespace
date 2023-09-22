@@ -11,7 +11,7 @@ public class PowerCalculator {
     System.out.println("Enter the exponent: ");
     double exponent = scanner.nextDouble();
 
-    double power = calculatePower(base, exponent);
+    double power = calculatePower(base, exp);
     System.out.println("The power of " + base + " raised to" + exponent + " is " +power );
   }
 
